@@ -71,7 +71,7 @@ const App = () => {
   return (
     <div className="container">
       
-      <h1>Dog ID Form Template App</h1>
+      <h1>Dog ID Form Six-Card Template App</h1>
       <p className="text">Developed by Ponder Code</p>
       <p className="text">NOTE: To easily resize or crop an image, go to <a href="https://www.resizepixel.com" target="_blank">ResizePixel.com</a> (not affiliated with Ponder Code)</p>
       <button onClick={handlePrint} className="print-button">Print ID Card</button>
@@ -117,7 +117,7 @@ const App = () => {
       <input type="file" accept="image/*" onChange={(e) => handleImageUpload(e, 3)} className="input-field" />
       <input type="text" placeholder="Dog's Name" value={dogName3} onChange={(e) => setDogName3(e.target.value)} className="input-field" />
       <input type="text" placeholder="Breed" value={breed3} onChange={(e) => setBreed3(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Associate Member's Name" value={memberName} onChange={(e) => setMemberName3(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Associate Member's Name" value={memberName3} onChange={(e) => setMemberName3(e.target.value)} className="input-field" />
       <input type="text" placeholder="ID Number" value={idNumber3} onChange={(e) => setIdNumber3(e.target.value)} className="input-field" />
       <input type="text" placeholder="Expiration Date" value={expiration3} onChange={(e) => setExpiration3(e.target.value)} className="input-field" />
 

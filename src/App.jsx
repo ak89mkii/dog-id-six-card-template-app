@@ -133,55 +133,55 @@ const App = () => {
       {/* Card 04 */}
       <br></br>      
       <input type="file" accept="image/*" onChange={(e) => handleImageUpload(e, 4)} className="input-field" />
-      <input type="text" placeholder="Dog's Name" value={dogName} onChange={(e) => setDogName(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Breed" value={breed} onChange={(e) => setBreed(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Associate Member's Name" value={memberName} onChange={(e) => setMemberName(e.target.value)} className="input-field" />
-      <input type="text" placeholder="ID Number" value={idNumber} onChange={(e) => setIdNumber(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Expiration Date" value={expiration} onChange={(e) => setExpiration(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Dog's Name" value={dogName4} onChange={(e) => setDogName4(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Breed" value={breed4} onChange={(e) => setBreed4(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Associate Member's Name" value={memberName4} onChange={(e) => setMemberName4(e.target.value)} className="input-field" />
+      <input type="text" placeholder="ID Number" value={idNumber4} onChange={(e) => setIdNumber4(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Expiration Date" value={expiration4} onChange={(e) => setExpiration4(e.target.value)} className="input-field" />
 
       <div className="id-card-4">
-        {image && <img src={image} alt="ID" className="uploaded-photo" />}
-        <p className="dog-name">{dogName}</p>
-        <p className="breed">{breed}</p>
-        <p className="member-name">{memberName}</p>
-        <p className="id-number">{idNumber}</p>
-        <p className="expiration">{expiration}</p>
+        {image && <img src={image4} alt="ID" className="uploaded-photo" />}
+        <p className="dog-name">{dogName4}</p>
+        <p className="breed">{breed4}</p>
+        <p className="member-name">{memberName4}</p>
+        <p className="id-number">{idNumber4}</p>
+        <p className="expiration">{expiration4}</p>
       </div>
 
       {/* Card 05 */}
       <br></br>      
       <input type="file" accept="image/*" onChange={(e) => handleImageUpload(e, 5)} className="input-field" />
-      <input type="text" placeholder="Dog's Name" value={dogName} onChange={(e) => setDogName(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Breed" value={breed} onChange={(e) => setBreed(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Associate Member's Name" value={memberName} onChange={(e) => setMemberName(e.target.value)} className="input-field" />
-      <input type="text" placeholder="ID Number" value={idNumber} onChange={(e) => setIdNumber(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Expiration Date" value={expiration} onChange={(e) => setExpiration(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Dog's Name" value={dogName5} onChange={(e) => setDogName5(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Breed" value={breed5} onChange={(e) => setBreed5(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Associate Member's Name" value={memberName5} onChange={(e) => setMemberName5(e.target.value)} className="input-field" />
+      <input type="text" placeholder="ID Number" value={idNumber5} onChange={(e) => setIdNumber5(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Expiration Date" value={expiration5} onChange={(e) => setExpiration5(e.target.value)} className="input-field" />
 
       <div className="id-card-5">
-        {image && <img src={image} alt="ID" className="uploaded-photo" />}
-        <p className="dog-name">{dogName}</p>
-        <p className="breed">{breed}</p>
-        <p className="member-name">{memberName}</p>
-        <p className="id-number">{idNumber}</p>
-        <p className="expiration">{expiration}</p>
+        {image && <img src={image5} alt="ID" className="uploaded-photo" />}
+        <p className="dog-name">{dogName5}</p>
+        <p className="breed">{breed5}</p>
+        <p className="member-name">{memberName5}</p>
+        <p className="id-number">{idNumber5}</p>
+        <p className="expiration">{expiration5}</p>
       </div>
 
       {/* Card 06 */}
       <br></br>      
       <input type="file" accept="image/*" onChange={(e) => handleImageUpload(e, 6)} className="input-field" />
-      <input type="text" placeholder="Dog's Name" value={dogName} onChange={(e) => setDogName(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Breed" value={breed} onChange={(e) => setBreed(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Associate Member's Name" value={memberName} onChange={(e) => setMemberName(e.target.value)} className="input-field" />
-      <input type="text" placeholder="ID Number" value={idNumber} onChange={(e) => setIdNumber(e.target.value)} className="input-field" />
-      <input type="text" placeholder="Expiration Date" value={expiration} onChange={(e) => setExpiration(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Dog's Name" value={dogName6} onChange={(e) => setDogName6(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Breed" value={breed6} onChange={(e) => setBreed6(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Associate Member's Name" value={memberName6} onChange={(e) => setMemberName6(e.target.value)} className="input-field" />
+      <input type="text" placeholder="ID Number" value={idNumber6} onChange={(e) => setIdNumber6(e.target.value)} className="input-field" />
+      <input type="text" placeholder="Expiration Date" value={expiration6} onChange={(e) => setExpiration6(e.target.value)} className="input-field" />
 
       <div className="id-card-6">
-        {image && <img src={image} alt="ID" className="uploaded-photo" />}
-        <p className="dog-name">{dogName}</p>
-        <p className="breed">{breed}</p>
-        <p className="member-name">{memberName}</p>
-        <p className="id-number">{idNumber}</p>
-        <p className="expiration">{expiration}</p>
+        {image && <img src={image6} alt="ID" className="uploaded-photo" />}
+        <p className="dog-name">{dogName6}</p>
+        <p className="breed">{breed6}</p>
+        <p className="member-name">{memberName6}</p>
+        <p className="id-number">{idNumber6}</p>
+        <p className="expiration">{expiration6}</p>
       </div>
       
     </div>

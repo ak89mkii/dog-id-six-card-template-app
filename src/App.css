@@ -49,9 +49,9 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 7.2in;
-  left: 20%;
-  transform: translateX(-50%);
+  bottom: 9.65in;
+  left: 15%;
+  /* transform: translateX(-50%); */
 }
 
 .id-card-2 {
@@ -63,9 +63,9 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 7.2in;
-  left: 80%;
-  transform: translateX(-50%);
+  bottom: 9.65in;
+  left: 55%;
+  /* transform: translateX(-50%); */
 }
 
 .id-card-3 {
@@ -77,9 +77,9 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 4.2in;
-  left: 20%;
-  transform: translateX(-50%);
+  bottom: 5.25in;
+  left: 15%;
+  /* transform: translateX(-50%); */
 }
 
 .id-card-4 {
@@ -91,9 +91,9 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 4.2in;
-  left: 80%;
-  transform: translateX(-50%);
+  bottom: 5.25in;
+  left: 55%;
+  /* transform: translateX(-50%); */
 }
 
 .id-card-5 {
@@ -105,9 +105,9 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 1.2in;
-  left: 20%;
-  transform: translateX(-50%);
+  bottom: 0.85in;
+  left: 15%;
+  /* transform: translateX(-50%); */
 }
 
 .id-card-6 {
@@ -119,9 +119,9 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 1.2in;
-  left: 80%;
-  transform: translateX(-50%);
+  bottom: 0.85in;
+  left: 55%;
+  /* transform: translateX(-50%); */
 }
 
 .id-card-template {

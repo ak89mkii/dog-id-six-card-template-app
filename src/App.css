@@ -49,8 +49,8 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 9.65in;
-  left: 15%;
+  bottom: 8in;
+  left: 7%;
   /* transform: translateX(-50%); */
 }
 
@@ -63,8 +63,8 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 9.65in;
-  left: 55%;
+  bottom: 8in;
+  right: 0.55in;
   /* transform: translateX(-50%); */
 }
 
@@ -77,8 +77,8 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 5.25in;
-  left: 15%;
+  bottom: 4.25in;
+  left: 7%;
   /* transform: translateX(-50%); */
 }
 
@@ -91,8 +91,8 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 5.25in;
-  left: 55%;
+  bottom: 4.25in;
+  right: 0.55in;
   /* transform: translateX(-50%); */
 }
 
@@ -105,8 +105,8 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 0.85in;
-  left: 15%;
+  bottom: 0.65in;
+  left: 7%;
   /* transform: translateX(-50%); */
 }
 
@@ -119,8 +119,8 @@ p {
   padding: 10px;
   background-size: cover;
   background-position: center;
-  bottom: 0.85in;
-  left: 55%;
+  bottom: 0.65in;
+  right: 0.55in;
   /* transform: translateX(-50%); */
 }
 

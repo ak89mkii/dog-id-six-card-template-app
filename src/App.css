@@ -51,7 +51,7 @@ p {
   background-position: center;
   bottom: 7.95in;
   left: 7%;
-  /* transform: translateX(-50%); */
+  opacity: 0.4; /* On-screen: translucent */
 }
 
 .id-card-2 {
@@ -65,7 +65,7 @@ p {
   background-position: center;
   bottom: 7.95in;
   right: 0.55in;
-  /* transform: translateX(-50%); */
+  opacity: 0.4; /* On-screen: translucent */
 }
 
 .id-card-3 {
@@ -193,18 +193,25 @@ p {
 
 @media print {
   .title {
-      visibility: hidden;
+    visibility: hidden;
   }
   h1 {
-      visibility: hidden;
+    visibility: hidden;
   }
   .text {
-      visibility: hidden;
+    visibility: hidden;
   }
   .input-field {
-      visibility: hidden;
+    visibility: hidden;
   }
   .print-button {
-      visibility: hidden;
+    visibility: hidden;
   }
+  .id-card {
+    opacity: 1
+  }
+  .id-card-2 {
+    opacity: 1
+  }
+
 }
